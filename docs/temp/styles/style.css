@@ -1,0 +1,61 @@
+* {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;	
+	background: -webkit-gradient(linear, left top, right top, from(red) , to(yellow));	
+	background: linear-gradient(to right, red , yellow); /* Standard syntax */
+	color: #FBF6F4;
+	margin:0;
+	font-weight: 400;
+	line-height: 1.6;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	list-style: none;
+}
+
+h1, h2{
+	margin:0 ;
+}
+
+h1 {
+	font-size: 4rem;
+	position: relative;
+	padding: 2.2rem 0;
+	color: #2E8A6E;
+	text-align: center;
+	font-weight: 300;
+	background-color: #fff;
+}
+
+h3 {
+	margin: 10px 0;
+	text-align: center;
+}
+
+strong {
+	 color:#2E8A6E;
+}
+
+button {
+	font-size: 1rem;
+	border: none;
+	color: #fff;
+	padding: 1rem 1.5rem;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 700px) {
+	.todoBox__list {
+		padding-top: 3 0px;
+	}
+}
